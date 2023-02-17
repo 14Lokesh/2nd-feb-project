@@ -1,0 +1,267 @@
+@media(min-width:2700px){
+  html{
+    font-size: 64px;
+  }
+}
+@media(min-width:1600px) and (max-width:2600px)
+{
+  html{
+    font-size: 32px;
+  }
+  #product-card,
+  #about-card {
+    
+    width: 70%;
+  }
+}
+
+@media (max-width:1024px){
+  #product-card,
+  #about-card {
+    
+    width: 80%;
+  }
+  .about-us_first-para{
+   
+    width: 30%;
+  }
+  
+  .about-us_second-para {
+    
+    width: 30%;
+  }
+  #stats {
+    margin-left: 10%;
+  }
+}
+@media (max-width: 980px){
+  .logo {
+    width: 3%;
+  }
+}
+@media (max-width: 950px) {
+  #header { 
+    height: 85vh;
+  }
+  .logo {
+    width: 3%;
+  }
+  #banner-text {
+    top: 30%;
+    left: 30%;
+  }
+  #banner-text p{
+    text-align: center;
+  }
+  #product-card,
+  #about-card{
+    flex-direction: column;
+    width: 40%;
+  }
+
+  #about-us {
+    flex-direction: column;
+  }
+  .about-us_redline {
+    margin: auto;
+  }
+  .about-us_first-para{
+    margin: auto;
+    width: 45%;
+  }
+  
+  .about-us_second-para {
+    margin: auto;
+    width: 45%;
+  }
+  #stats {
+    margin-left: 30%;
+  }
+}
+
+@media (max-width: 855px) {
+  .logo {
+    width: 3%;
+  }
+  #banner-text p{
+    text-align: center;
+  }
+  #checkbtn {
+    display: block;
+  }  
+
+  nav ul {
+    width: 100%;
+    height: 50vh;
+    position: absolute;
+    top: 5rem;
+    left: -100%;
+    transition: 0.5s;
+    background-color: rgb(6, 3, 41);
+    z-index: 2;
+  }
+  nav ul li {
+    display: block;
+    text-align: center;
+    line-height: 3rem;
+    margin: 1rem;
+  }
+  #banner-text {
+    left: 25%;
+    right: 5%;
+  }
+  #banner-text p {
+    font-size: 0.9rem;
+  }
+  #product-card,
+  #about-card {
+    width: 50%;
+  }
+  .about-us-line p{
+    width: 8%;
+  }
+}
+
+@media (max-width: 650px) {
+  .logo {
+    width: 4%;
+    padding: 0;
+  }
+  #banner-text {
+    top: 30%;
+    left: 20%;
+  }
+  #stats{
+    margin-left:26% ;
+  }
+}
+
+@media (max-width: 600px) {
+
+  #header { 
+    height: 80vh;
+  }
+  #banner-text h1 {
+    font-size: 4rem;
+  }
+  #banner-text p{
+    font-size: 1rem;
+    text-align: center;
+  }
+  #product-card,
+  #about-card {
+    width: 60%;
+  }
+  #about-us {
+    flex-direction: column;
+  }
+  .about-us_redline {
+    margin: auto;
+  }
+  .about-us-line p{
+    width: 15%;
+  }
+  .about-us_first-para,
+  .about-us_second-para {
+    margin: auto;
+    width: 65%;
+  }
+}
+
+@media (max-width: 500px) {
+  #header { 
+    height: 70vh;
+  }
+  .logo {
+    width: 5%;
+  }
+
+  #banner-text h1 {
+    font-size: 3.5rem;
+  }
+  #banner-text p{
+    font-size: 0.9rem;
+    text-align: center;
+  }
+  .about-us-line p{
+    width: 15%;
+  }
+  #product-card,
+  #about-card {
+    width: 70%;
+  }
+  #stats {
+    margin-left: 20%;
+    margin-bottom: 10%;
+  }
+  .about-us-line h2{
+    font-size: 2.7rem;
+  }
+}
+
+@media (max-width: 400px) {
+  #header { 
+    height: 65vh;
+  }
+  .logo {
+    width: 6%;
+    padding: 0;
+  }
+  label.brand-name {
+    margin: 0;
+    font-size: 2rem;
+  }
+  #banner-text {
+    top: 30%;
+    left: 20%;
+  }
+  #banner-text h1 {
+    font-size: 3rem;
+  }
+  #banner-text p{
+    font-size: 0.7rem;
+    text-align: center;
+  }
+
+  #about-us {
+    flex-direction: column;
+  }
+  .about-us-line h2{
+    font-size: 3rem;
+  }
+  .about-us_redline {
+    margin: auto;
+  }
+  .about-us_first-para,
+  .about-us_second-para {
+    margin: auto;
+    width: 75%;
+  }
+
+  .about-us-line p {
+    width: 15%;
+    height: 0.2rem;
+    margin-bottom: 3rem;
+  }
+  #about-card {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+
+  #product-card,
+  #about-card {
+    width: 80%;
+  }
+  #stats{
+    margin-left:12% ;
+  }
+}
+@media (max-width: 340px) {
+   #header { 
+  height: 65vh;
+}
+
+  #banner-text h1 {
+    font-size: 2.3rem;
+  }
+}
