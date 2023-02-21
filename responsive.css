@@ -36,23 +36,23 @@
 }
 @media (max-width: 980px){
   .logo {
-    width: 3%;
+    /* width: 3%; */
   }
 }
 @media (max-width: 950px) {
-  #header { 
+  header { 
     height: 85vh;
   }
   .logo {
-    width: 3%;
+    /* width: 3%; */
   }
-  #banner-text {
+  /* #banner-text {
     top: 30%;
     left: 30%;
   }
   #banner-text p{
     text-align: center;
-  }
+  } */
   #product-card,
   #about-card{
     flex-direction: column;
@@ -81,11 +81,11 @@
 
 @media (max-width: 855px) {
   .logo {
-    width: 3%;
+    /* width: 3vw; */
   }
-  #banner-text p{
+  /* #banner-text p{
     text-align: center;
-  }
+  } */
   #checkbtn {
     display: block;
   }  
@@ -106,13 +106,16 @@
     line-height: 3rem;
     margin: 1rem;
   }
-  #banner-text {
+  #banner-text h1{
+    font-size: 4rem;
+  }
+  /* #banner-text {
     left: 25%;
     right: 5%;
-  }
-  #banner-text p {
+  } */
+  /* #banner-text p {
     font-size: 0.9rem;
-  }
+  } */
   #product-card,
   #about-card {
     width: 50%;
@@ -121,33 +124,45 @@
     width: 8%;
   }
 }
+@media (max-width: 700px){
+  #banner-text h1{
+    font-size: 3.5rem;
+  }
+  #banner-text p{
+    font-size: 1rem;
+  }
+}
 
 @media (max-width: 650px) {
   .logo {
-    width: 4%;
+    /* width: 4%; */
     padding: 0;
   }
-  #banner-text {
+  /* #banner-text {
     top: 30%;
     left: 20%;
-  }
+  } */
   #stats{
     margin-left:26% ;
+  }
+  #banner-text p{
+    margin-top: .5rem;
+    font-size: .7rem;
   }
 }
 
 @media (max-width: 600px) {
 
-  #header { 
+  header { 
     height: 80vh;
   }
-  #banner-text h1 {
-    font-size: 4rem;
+  #banner-text h1{
+    font-size: 3rem;
   }
-  #banner-text p{
+  /* #banner-text p{
     font-size: 1rem;
     text-align: center;
-  }
+  }  */
   #product-card,
   #about-card {
     width: 60%;
@@ -168,21 +183,24 @@
   }
 }
 
-@media (max-width: 500px) {
-  #header { 
-    height: 70vh;
+@media (max-width: 505px) {
+  header { 
+    height: 60vh;
   }
   .logo {
-    width: 5%;
+    /* width: 5%; */
+  }
+  #banner-text h1{
+    font-size: 2.5rem;
   }
 
-  #banner-text h1 {
+  /* #banner-text h1 {
     font-size: 3.5rem;
   }
   #banner-text p{
     font-size: 0.9rem;
     text-align: center;
-  }
+  } */
   .about-us-line p{
     width: 15%;
   }
@@ -198,30 +216,34 @@
     font-size: 2.7rem;
   }
 }
-
+@media (max-width: 420px){
+  #banner-text h1{
+    font-size: 2rem;
+  }
+}
 @media (max-width: 400px) {
-  #header { 
+  header { 
     height: 65vh;
   }
   .logo {
-    width: 6%;
+    /* width: 6%; */
     padding: 0;
   }
   label.brand-name {
     margin: 0;
     font-size: 2rem;
   }
-  #banner-text {
+  /* #banner-text {
     top: 30%;
     left: 20%;
-  }
-  #banner-text h1 {
+  } */
+  /* #banner-text h1 {
     font-size: 3rem;
   }
   #banner-text p{
     font-size: 0.7rem;
     text-align: center;
-  }
+  } */
 
   #about-us {
     flex-direction: column;
@@ -257,11 +279,11 @@
   }
 }
 @media (max-width: 340px) {
-   #header { 
-  height: 65vh;
+   header { 
+  height: 60vh;
 }
 
   #banner-text h1 {
-    font-size: 2.3rem;
+    font-size: 1.8rem;
   }
 }
