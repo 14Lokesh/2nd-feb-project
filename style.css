@@ -109,6 +109,7 @@ nav ul li a:hover {
 .card-box img {
   margin-top: 1rem;
   width: 10%;
+
 }
 
 .card-box h3 {
@@ -146,7 +147,7 @@ nav ul li a:hover {
   font-weight: lighter;
 }
 .about-us-line p {
-  width: 5%;
+  width: 5rem;
   height: 0.2rem;
   background-color: red;
   margin: auto;
@@ -167,7 +168,7 @@ nav ul li a:hover {
 }
 
 .about-us_first-para {
-  width: 25%;
+  width: 25rem;
   color: rgba(0, 0, 0, 0.485);
   line-height: 1.5;
   text-align: justify;
@@ -177,7 +178,7 @@ nav ul li a:hover {
 }
 
 .about-us_second-para {
-  width: 25%;
+  width: 25rem;
   color: rgba(0, 0, 0, 0.485);
   line-height: 1.4;
 }

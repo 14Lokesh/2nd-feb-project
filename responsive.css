@@ -8,27 +8,12 @@
   }
 }
 
-
-
-
 @media (max-width: 1024px) {
   #product-card,
   #about-card {
     width: 80%;
   }
-  .about-us_first-para,
-  .about-us_second-para {
-    width: 30%;
-  }
-
-  /* #stats {
-    margin-left: 10%;
-  } */
 }
-
-
-
-
 
 @media (max-width: 950px) {
   header {
@@ -50,16 +35,12 @@
   .about-us_first-para,
   .about-us_second-para {
     margin: auto;
-    width: 45%;
   }
 
   #stats {
     margin-left: 30%;
   }
 }
-
-
-
 
 @media (max-width: 855px) {
   #checkbtn {
@@ -87,12 +68,7 @@
   #about-card {
     width: 50%;
   }
-  .about-us-line p {
-    width: 8%;
-  }
 }
-
-
 
 @media (max-width: 650px) {
   #stats {
@@ -106,8 +82,6 @@
     font-size: 0.7rem;
   }
 }
-
-
 
 @media (max-width: 600px) {
   header {
@@ -125,7 +99,7 @@
     margin: auto;
   }
   .about-us-line p {
-    width: 15%;
+    width: 5rem;
   }
   .about-us_first-para,
   .about-us_second-para {
@@ -133,9 +107,6 @@
     width: 65%;
   }
 }
-
-
-
 
 @media (max-width: 505px) {
   header {
@@ -147,7 +118,7 @@
   }
 
   .about-us-line p {
-    width: 15%;
+    width: 3rem;
   }
   #product-card,
   #about-card {
@@ -161,10 +132,6 @@
     font-size: 2.7rem;
   }
 }
-
-
-
-
 
 @media (max-width: 400px) {
   header {
@@ -194,7 +161,6 @@
   }
 
   .about-us-line p {
-    width: 15%;
     height: 0.2rem;
     margin-bottom: 3rem;
   }
@@ -211,7 +177,6 @@
     margin-left: 12%;
   }
 }
-
 
 @media (max-width: 340px) {
   header {
