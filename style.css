@@ -41,7 +41,7 @@ nav {
 .logo {
   width: 1.8rem;
   margin-top: 1rem;
-  margin-left: 2rem;
+  margin-left: 1rem;
 }
 
 label.brand-name {
@@ -160,10 +160,14 @@ nav ul li a:hover {
   justify-content: center;
   gap: 1rem;
 }
-.about-us_redline p {
+.about-us_red-text{
+  position: relative;
+  bottom: 0.5rem;
+}
+.about-us_red-text p {
   float: right;
   font-weight: lighter;
-  font-size: 2.1rem;
+  font-size: 2.3rem;
   color: rgba(255, 0, 0, 0.821);
 }
 

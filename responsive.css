@@ -29,7 +29,7 @@
   #about-us {
     flex-direction: column;
   }
-  .about-us_redline {
+  .about-us_red-text {
     margin: auto;
   }
   .about-us_first-para,
@@ -95,7 +95,7 @@
   #about-us {
     flex-direction: column;
   }
-  .about-us_redline {
+  .about-us_red-text {
     margin: auto;
   }
   .about-us-line p {
@@ -151,7 +151,7 @@
   .about-us-line h2 {
     font-size: 3rem;
   }
-  .about-us_redline {
+  .about-us_red-text {
     margin: auto;
   }
   .about-us_first-para,
