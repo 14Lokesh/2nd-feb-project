@@ -1,10 +1,23 @@
 @media (min-width: 1600px) and (max-width: 2800px) {
   html {
-    font-size: 32px;
+    font-size: 16px;
   }
   #product-card,
   #about-card {
+    width: 80%;
+  }
+  #stats {
+    margin-left: 10vw;
+  }
+}
+
+@media (max-width: 1600px) {
+  #product-card,
+  #about-card {
     width: 70%;
+  }
+  #stats {
+    margin-left: 15vw;
   }
 }
 
@@ -12,6 +25,13 @@
   #product-card,
   #about-card {
     width: 80%;
+  }
+  #stats {
+    margin-left: 10%;
+  }
+  .about-us_first-para,
+  .about-us_second-para {
+    width: 30vw;
   }
 }
 
@@ -35,6 +55,7 @@
   .about-us_first-para,
   .about-us_second-para {
     margin: auto;
+    width: 60vw;
   }
 
   #stats {
@@ -68,6 +89,9 @@
   #about-card {
     width: 50%;
   }
+  #stats {
+    margin-left: 13rem;
+  }
 }
 
 @media (max-width: 650px) {
@@ -80,6 +104,11 @@
   #banner-text p {
     margin-top: 0.5rem;
     font-size: 0.7rem;
+  }
+  .about-us_first-para,
+  .about-us_second-para {
+    /* margin: auto; */
+    width: 75%;
   }
 }
 
