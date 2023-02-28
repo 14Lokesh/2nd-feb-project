@@ -2,8 +2,7 @@
   html {
     font-size: 16px;
   }
-  #product-card,
-  #about-card {
+  .product-about_card{
     width: 80%;
   }
   #stats {
@@ -12,25 +11,22 @@
 }
 
 @media (max-width: 1600px) {
-  #product-card,
-  #about-card {
+  #product-about_card {
     width: 70%;
-  }
-  #stats {
+  } 
+   #stats {
     margin-left: 15vw;
   }
-}
+} 
 
 @media (max-width: 1024px) {
-  #product-card,
-  #about-card {
+  .product-about_card {
     width: 80%;
   }
   #stats {
     margin-left: 10%;
   }
-  .about-us_first-para,
-  .about-us_second-para {
+  .about-us_para {
     width: 30vw;
   }
 }
@@ -40,8 +36,7 @@
     height: 85vh;
   }
 
-  #product-card,
-  #about-card {
+  .product-about_card {
     flex-direction: column;
     width: 40%;
   }
@@ -52,8 +47,7 @@
   .about-us_red-text {
     margin: auto;
   }
-  .about-us_first-para,
-  .about-us_second-para {
+  .about-us_para {
     margin: auto;
     width: 60vw;
   }
@@ -64,7 +58,17 @@
 }
 
 @media (max-width: 855px) {
-  #checkbtn {
+ 
+
+  .product-about_card {
+    width: 50%;
+  }
+  #stats {
+    margin-left: 13rem;
+  }
+}
+@media (max-width: 745px){
+  #check-button {
     display: block;
   }
 
@@ -84,17 +88,9 @@
     line-height: 3rem;
     margin: 1rem;
   }
-
-  #product-card,
-  #about-card {
-    width: 50%;
-  }
-  #stats {
-    margin-left: 13rem;
-  }
 }
-
 @media (max-width: 650px) {
+ 
   #stats {
     margin-left: 26%;
   }
@@ -105,8 +101,7 @@
     margin-top: 0.5rem;
     font-size: 0.7rem;
   }
-  .about-us_first-para,
-  .about-us_second-para {
+  .about-us_para{
     /* margin: auto; */
     width: 75%;
   }
@@ -117,8 +112,7 @@
     height: 80vh;
   }
 
-  #product-card,
-  #about-card {
+  .product-about_card {
     width: 60%;
   }
   #about-us {
@@ -127,11 +121,10 @@
   .about-us_red-text {
     margin: auto;
   }
-  .about-us-line p {
+  .about-stats-heading span {
     width: 5rem;
   }
-  .about-us_first-para,
-  .about-us_second-para {
+  .about-us_para {
     margin: auto;
     width: 65%;
   }
@@ -146,18 +139,17 @@
     font-size: 3rem;
   }
 
-  .about-us-line p {
+  .about-stats-heading span {
     width: 3rem;
   }
-  #product-card,
-  #about-card {
+  .product-about_card {
     width: 70%;
   }
   #stats {
     margin-left: 20%;
     margin-bottom: 10%;
   }
-  .about-us-line h2 {
+  .about-stats-heading h2 {
     font-size: 2.7rem;
   }
 }
@@ -177,19 +169,18 @@
   #about-us {
     flex-direction: column;
   }
-  .about-us-line h2 {
+  .about-stats-heading h2 {
     font-size: 3rem;
   }
   .about-us_red-text {
     margin: auto;
   }
-  .about-us_first-para,
-  .about-us_second-para {
+  .about-us_para {
     margin: auto;
     width: 75%;
   }
 
-  .about-us-line p {
+  .about-stats-heading span {
     height: 0.2rem;
     margin-bottom: 3rem;
   }
@@ -198,8 +189,7 @@
     margin-bottom: 3rem;
   }
 
-  #product-card,
-  #about-card {
+  .product-about_card {
     width: 80%;
   }
   #stats {
