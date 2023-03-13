@@ -9,6 +9,16 @@
     max-width: 1537px;
     margin: auto;
   }
+  .about-us_red-text {
+    width: 8rem;
+  }
+  .about-us_red-text p {
+    /* text-align: right; */
+    font-weight: lighter;
+    font-size: 40px;
+    color: rgba(255, 0, 0, 0.821);
+    line-height: 1.3;
+  }
 
 }
 
